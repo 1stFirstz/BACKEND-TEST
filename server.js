@@ -21,6 +21,10 @@ const allowedOrigins = [
     "https://artnakkk-frontend-admin.vercel.app",
     "http://localhost:5175", // For local development
     "http://localhost:5176", // For local development
+    "http://localhost:5172", // For local development
+    "http://localhost:5173", // For local development
+    "http://localhost:5174", // For local development
+    "https://front-end-test-rho.vercel.app" // admin local
 ];
 // Configure CORS
 app.use(
@@ -47,5 +51,5 @@ app.get("/", (req, res) => {
     res.send("API Working");
 });
 app.listen(port, () =>
-    console.log("Server start on PORT : " + port + "eiei za")
+    console.log("Server start on PORT : " + port + " Na I Sus")
 )
