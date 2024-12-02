@@ -18,13 +18,12 @@ connectCloudinary();
 app.use(express.json());
 // Define the list of allowed origin
 const allowedOrigins = [
-    "https://artnakkk-frontend-admin.vercel.app",
     "http://localhost:5175", // For local development
     "http://localhost:5176", // For local development
     "http://localhost:5172", // For local development
     "http://localhost:5173", // For local development
     "http://localhost:5174", // For local development
-    "https://front-end-test-rho.vercel.app" // admin local
+    "https://front-end-test-rho.vercel.app" // admin
 ];
 // Configure CORS
 app.use(
