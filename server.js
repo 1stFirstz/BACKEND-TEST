@@ -23,7 +23,8 @@ const allowedOrigins = [
     "http://localhost:5172", // For local development
     "http://localhost:5173", // For local development
     "http://localhost:5174", // For local development
-    "https://front-end-test-rho.vercel.app" // admin
+    "https://front-end-test-rho.vercel.app", // admin
+    "https://front-end-test-4tqw92xus-firstzs-projects.vercel.app" //Front
 ];
 // Configure CORS
 app.use(
